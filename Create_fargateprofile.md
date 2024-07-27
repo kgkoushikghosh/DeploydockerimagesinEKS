@@ -1,5 +1,5 @@
 eksctl create fargateprofile \
-    --cluster demo-cluster \
+    --cluster demo-cluster-ngnix \
     --region us-east-1 \
-    --name alb-sample-app \
-    --namespace game-2048
+    --name alb-ngnix-app \
+    --namespace ngnix-app
